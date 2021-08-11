@@ -1,0 +1,36 @@
+comandos:
+  # Hora
+  - comandos:
+    entrada:  Que horas são?
+    entidade: tempo
+    action: get_time
+  - comandos:
+    entrada:  que ora é?
+    entidade: tempo
+    action: get_time
+
+  # Data
+  - comandos:
+    entrada:  Que dia é hoje?
+    entidade: data
+    action: get_day
+
+  # Clima
+  - comandos:
+    entrada:  Como está o clima?
+    entidade: clima
+    action: get_weather
+  - comandos:
+    entrada:  Previsão do Tempo
+    entidade: clima
+    action: get_weather
+
+  # Abrir
+  - comandos:
+    entrada:  Abrir google
+    entidade: abrir
+    action: 
+  - comandos:
+    entrada:  Abra o google
+    entidade: abrir
+    action:
